@@ -1,5 +1,5 @@
 """
-Data Preprocessing
+Step 4: Data Preprocessing
 Project: Stress Management System using Face Recognition + Daily Routine
 
 Responsibilities:

@@ -1,5 +1,5 @@
 """
-Dataset Loading & Validation
+Step 2: Dataset Loading & Validation
 Project: Stress Management System using Face Recognition + Daily Routine
 
 Responsibilities:
