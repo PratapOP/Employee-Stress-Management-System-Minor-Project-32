@@ -1,5 +1,5 @@
 """
-Facial Feature Extraction Module
+Step 11: Facial Feature Extraction Module
 Project: Stress Management System using Face Recognition + Daily Routine
 
 Responsibilities:
