@@ -5,33 +5,21 @@
 * Sameeksha Shakya (Roll No.: 231030002)
 * Devanshu Saroha (Roll No.: 231030153)
 * Shivansh Sharma (Roll No.: 231030171)
-
 ---
-
 # Stress Management System using Face Recognition
-
 ## Project Overview
-
 The **Stress Management System using Face Recognition** is a multimodal machine learning–based system designed to **detect and manage human stress levels** by combining:
-
 * **Facial analysis** (geometric features + emotions)
 * **Daily routine & behavioral data** (sleep, workload, lifestyle)
-
 The system does **not diagnose mental health conditions**. Instead, it acts as a **decision-support tool** to identify stress levels and provide **actionable stress management recommendations**.
-
 ---
-
 ## Objectives
-
 * Detect stress levels: **Low, Moderate, High**
 * Combine **objective (face)** and **subjective (routine)** indicators
 * Ensure **ethical, explainable, and privacy-aware** ML design
 * Provide **practical stress management suggestions**
-
 ---
-
 ## System Architecture
-
 ```
 User Input
  ├── Daily Routine Data (Survey / Form)
@@ -53,11 +41,8 @@ Stress Management Logic
  ├── Alerts
  └── Logging
 ```
-
 ---
-
 ## 📁 Project Folder Structure
-
 ```
 Stress-Management-System/
 │
@@ -93,146 +78,97 @@ Stress-Management-System/
 ├── README.md
 └── .gitignore
 ```
-
 ---
-
 ## Features Used for Model Training
-
 ### Daily Routine (Behavioral)
-
 * Sleep hours, sleep quality, sleep consistency
 * Study/work hours & assignment pressure
 * Physical activity duration
 * Screen time
 * Social interaction time
 * Caffeine intake
-
 ### Facial Geometry Features
-
 * Eye opening ratio
 * Mouth width ratio
-
 ### Emotion Features
-
 * Angry
 * Fear
 * Sad
 * Neutral
 * Happy
 * Surprise
-
 ---
-
 ## Machine Learning Details
-
 * **Task Type:** Multi-class classification
 * **Target Variable:** `stress_level`
-
   * `0` → Low Stress
   * `1` → Moderate Stress
   * `2` → High Stress
-
 ### Supported Models
-
 * Random Forest (default)
 * Support Vector Machine (SVM)
 * Logistic Regression
-
 ---
-
 ## Installation & Setup
-
 ### 1️⃣ Clone the Repository
-
 ```bash
 git clone <repository-url>
 cd Stress-Management-System
 ```
-
 ### 2️⃣ Create Virtual Environment (Recommended)
-
 ```bash
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 ```
-
 ### 3️⃣ Install Dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
-
 ---
-
 ## ▶️ How to Run
-
 ### Train + Evaluate Model (One Command)
-
 ```bash
 python run_pipeline.py
 ```
-
 ### Run Stress Prediction (Example)
-
 ```bash
 python src/models/predict.py
 ```
-
 ### Run Facial Feature Extraction
-
 ```bash
 python src/features/facial_features.py
 ```
-
 ### Run Emotion Feature Extraction
-
 ```bash
 python src/features/emotion_features.py
 ```
-
 ---
-
 ## Ethics & Privacy
-
 * No facial images are stored
 * Data is anonymized using participant IDs
 * Explicit consent is mandatory
 * System is **not a medical diagnostic tool**
-
 > <b>NOTE:</b> This project is for **academic and research purposes only**.
-
 ---
-
 ## Evaluation Metrics
-
 * Accuracy
 * Precision
 * Recall
 * F1-score
 * Confusion Matrix
-
 ---
-
 ## Future Scope
-
 * Smartwatch / wearable integration
 * Longitudinal stress trend analysis
 * Mobile / web dashboard
 * Personalized stress baselines
 * Counselor or mentor feedback loop
-
 ---
-
 ## Academic Declaration
-
 This project follows ethical ML practices, uses synthetic data for development, and aligns with academic research standards in **affective computing and stress analysis**.
-
 ---
-
 ## Authors
-
-**Team Project** — Stress Management System using Face Recognition
-
+**Team Project**: Stress Management System using Face Recognition
 ---
 
