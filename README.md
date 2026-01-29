@@ -112,7 +112,7 @@ Stress-Management-System/
 ## Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/PratapOP/Employee-Stress-Management-System-Minor-Project-32
 cd Stress-Management-System
 ```
 ### 2️⃣ Create Virtual Environment (Recommended)
